@@ -6,10 +6,11 @@ const RootLayOut = () => {
     return (
         <div className="rootLayout">
             <header>
-               <Link>
+               <Link to="/" className="logo">
                  <img src="/logo.png" alt="logo"/>
                  <span>IntellectBot</span>
                </Link>
+               <div className="user">User</div>
             </header>
             <main>
                 <Outlet />
